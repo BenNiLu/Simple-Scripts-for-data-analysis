@@ -3,6 +3,7 @@ This is just a repository to storing simple python scripts which I have written 
 
 Currently there are scripts for:
 1. Tm analysis (to determine Tm values from RNA/DNA melting experiments)
+
     Basics operation:
     1. The script accepts a input file of .txt or .csv file format with two columns (1st column being "Temperature", 2nd column being "Absorption").
     2. The scripts then finds the temperature for which the changes in absorption is at its maximum.
@@ -12,5 +13,5 @@ Currently there are scripts for:
        (larger TA indicates higher cooperativity)
     6. Script output the figure of the data points near Tm, the fitted sigmoidal curve, and the curve of first derivative function of sigmoidal curve. The exact values of Tm and TA are outputed in csv.
     7. Check the output figure to see if the curve was fitted properly before using the data. The output figure should look like something below.
-    
+
     ![NL-396-R004 txt_Sigmoid_fit](https://github.com/BenNiLu/Simple-Scripts-for-data-analysis/assets/137369525/34390c42-afc0-463f-883c-a3d51d17f648)
