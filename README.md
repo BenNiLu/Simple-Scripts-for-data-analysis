@@ -1,5 +1,6 @@
 # Simple-Scripts-for-data-analysis
 This is just a repository for storing simple Python3 scripts which I have written to simplify my data analysis.
+Make sure to have the necessary packages installed before usage.
 
 Currently, there are scripts for:
 1. Tm analysis (to determine Tm values from RNA/DNA melting experiments)
