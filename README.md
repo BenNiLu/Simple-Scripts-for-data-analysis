@@ -4,7 +4,7 @@ This is just a repository for storing simple Python3 scripts which I have writte
 Currently, there are scripts for:
 1. Tm analysis (to determine Tm values from RNA/DNA melting experiments)
 
-    Basics operation:
+    Basics operation: (Usage: python3 Tm_curvefit.py *Insert file name here*)
     1. The script accepts an input file of .txt or .csv file format with two columns (1st column being "Temperature", 2nd column being "Absorption").
     2. The script then finds the temperature for which the changes in absorption are at their maximum.
     3. Uses data that is +(-) 20 C from the said data point and attempts to fit a sigmoidal curve against the 41 data points
