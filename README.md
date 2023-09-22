@@ -19,7 +19,7 @@ Currently, there are scripts for:
 
     Additonal Change Log:
     1. Added --help page within the script. The definition of Optional arguments are specified there.
-    2. Can now specify the temperature window in which the script will attempt to find the sigmoidal curve with --l and --h
+    2. Can now specify the temperature window in which the script will attempt to find the sigmoidal curve. Specified with --l and --h
        (default is: *--l 30 --h 90*)
     4. Can now analyze multiphasic transition with --sn argument (default is: *--sn 1*)
 
