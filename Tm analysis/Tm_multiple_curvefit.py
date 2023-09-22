@@ -97,7 +97,7 @@ if __name__ == '__main__':
     parser.add_argument("--rfl","--ref_frame_l", type=int, default=15, help="Lower range distance [data point] from the Tm to be taken account when fitting curve, default is 15")
     parser.add_argument("--rfh","--ref_frame_h", type=int, default=15, help="Higher range distance [data point] from the Tm to be taken account when fitting curve, default is 15")
     parser.add_argument("--l", "--lower_limit", type=int, default=30, help="The minimum temperature below which it will not look for a Tm curve, default is 30")
-    parser.add_argument("--h", "--higher_limit", type=int, default=80, help="The maximum temperature below which it will not look for a Tm curve, default is 90")
+    parser.add_argument("--h", "--higher_limit", type=int, default=80, help="The maximum temperature above which it will not look for a Tm curve, default is 90")
     args = parser.parse_args()
     inFile = args.f
     no_sig = args.sn
